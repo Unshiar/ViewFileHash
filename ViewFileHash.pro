@@ -27,3 +27,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DESTDIR = $$PWD/../ViewFileHash/bin
 
 QMAKE_LFLAGS += -static
+
+HEADERS += \
+    ConsoleHelper.h \
+    MessageHelper.h \
+    common.h \
+    HashHelper.h
